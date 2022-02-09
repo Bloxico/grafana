@@ -9,7 +9,7 @@ export interface BrandComponentProps {
 }
 
 const LoginLogo: FC<BrandComponentProps> = ({ className }) => {
-  return <img className={className} src="public/img/grafana_icon.svg" alt="Grafana" />;
+  return <img className={className} src="public/img/vn-logo.svg" alt="Verifying Node" />;
 };
 
 const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
@@ -59,7 +59,7 @@ export class Branding {
   static MenuLogo = MenuLogo;
   static LoginBoxBackground = LoginBoxBackground;
   static AppTitle = 'Grafana';
-  static LoginTitle = 'Welcome to Grafana';
+  static LoginTitle = 'Verifying Node';
   static GetLoginSubTitle = (): null | string => {
     return null;
   };
